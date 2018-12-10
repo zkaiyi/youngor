@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>雅戈尔集团-人才储备</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/talents-stor.css" />
+    <script src="js/font.js"></script>
+</head>
+<body>
+<div class="container  talents-stor-container">
+    <!--内容-->
+    <div class="content-container ">
+        <!--头部-->
+        <div class="top-nav-container clearfix">
+            <div class="top-nav-fl fl"><a href="index.html"><img class="top-nav-fl-img" src="images/logo.png" /></a></div>
+            <div class="top-nav-fr top-nav-fr- fr"><img class="top-nav-fr-img" src="images/nav-click.png" /></div>
+        </div>
+        <!--头部占位-->
+        <div class="top-nav-zw01"></div>
+        <div class="top-nav-zw02"></div>
+        <!--banner-->
+        <div class="talents-stor-banner"><img class="talents-stor-banner-img" src="images/tal-banner-02.png" /></div>
+        <div class="center-container talents-stor-about">欢迎各界优秀人士加入雅戈尔人才储备库，诚挚邀请您向我们投递简历，若有合适岗位，我们将及时为您推荐，也希望你能对雅戈尔保持关注，非常感谢您对雅戈尔的支持！</div>
+        <!--联系电话-->
+        <div class="center-container talents-stor-phone">
+            <div class="talents-stor-phone-title">联系电话</div>
+            <div class="talents-stor-p clearfix">
+                <div class="talents-stor-p-fl fl"><img class="talents-stor-p-fl-img" src="images/tal-phone.png" />0574-56198606</div>
+                <div class="talents-stor-p-fr fr">0574-56198604</div>
+            </div>
+        </div>
+        <!--投递简历-->
+        <div class="talents-post-auto-02 talents-stor-send">
+            <div class="ts-send">备注：请投递个人简历或下载《应聘登记表》进行简历投递。</div>
+            <div class="ts-send-download"><a href="/downloadfilerouter">
+                <div class="ts-send-d"><img class="ts-send-d-img" src="images/tal-download.png" />下载：《应聘登记表》</div>
+            </a></div>
+            <div class="ts-send-zz">简历投递</div>
+        </div>
+
+        <!--底部版权-->
+        <div class="footer-contaiern">
+            <div class="footer-contaiern-font">Copyright © 2008 YOUNGOR All Rights Reserved<br>备案号：ICP备02512521XX</div>
+        </div>
+    </div>
+    <!--菜单-->
+    <div class="nav-container ">
+        <div class="nav-content nav-need">
+            <div class="nav"><a href="news.html">新闻中心</a></div>
+
+            <div class="nav"><a href="jt-general.html">集团概况</a></div>
+            <div class="nav"><a href="jt-culture.html">企业文化</a></div>
+            <div class="nav"><a href="jt-honor.html">企业荣誉</a></div>
+            <div class="nav"><a href="talents.html">人才招聘</a></div>
+        </div>
+    </div>
+    <!--弹出框-->
+    <div class="container-talents-zz hide"></div>
+    <div class="container-talents-tck ">
+        <div class="container-talents-tck-top">填写应聘信息</div>
+        <div class="container-talents-tck-table">
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的名字"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的年龄"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的性别"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的毕业院校"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的学历"></div>
+            <div class="table-file">
+                <div class="table-file-d"><img class="table-file-d-img" src="images/tal-file.png" />上传简历</div>
+                <input class="table-file-int" type="file" id="uppic" onchange="upimg(this)">
+            </div>
+        </div>
+        <div class="talents-tck-submit">提交</div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/talents.js"></script>
+<script>
+    // 上传简历
+    // function upimg(t) {
+    //     var imgFile  = t.files[0];
+    //     var fr = new FileReader();
+    //     fr.onload = function(){
+    //         $("#imgFile").attr("src",fr.result)
+    //     };
+    //     fr.readAsDataURL(imgFile);
+    // }
+</script>
+<script>
+    $(function(){
+        lrFixFooter(".footer-contaiern");
+    })
+</script>
+</body>
+</html>

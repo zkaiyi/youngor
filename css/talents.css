@@ -1,0 +1,113 @@
+/*背景色*/
+body{
+    background-color: #ebedec;
+}
+/*轮播*/
+.calsoul-container{width: 100%;}
+.swiper-container {width: 100%;height: 100%;}
+.swiper-slide {
+    text-align: center;font-size: 18px;background: #fff;
+    /* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;
+}
+.swiper-slide01-img{width: 100%;}
+.swiper-pagination01 .swiper-pagination-bullet{background-color: white;opacity: .4;width: 7px;height: 7px;}
+.swiper-pagination01 .swiper-pagination-bullet-active{background-color: white;opacity: 1;}
+.swiper-container01>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: -0.05rem;}
+
+/*三大菜单*/
+.talents-three-container{padding-top: 0.28rem;padding-bottom: 0.28rem;}
+.talents-three-fl{width: 32%;overflow: hidden;border-radius: 0.1rem;position: relative;}
+.talents-three-fl-img{width: 100%;}
+.talents-three-fl-t{position: absolute;left: 0;top: 35%;width: 100%;text-align: center;font-size: 0.3rem;color: white;}
+.talents-three-fl-t-img{vertical-align: middle;width: 0.4rem;margin-right: 0.07rem;}
+.talents-three-fl a{display: inline-block;width: 100%;height: 100%;}
+.talents-three-fl:nth-child(2){margin-left: 2%;margin-right: 2%;}
+.talents-three-fl-t-active{color: #f0b475;}
+
+/*搜索*/
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome, firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:0.14rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.talents-search{background-color: white;overflow: hidden;border-radius: 0.15rem;position: relative;height: 0.8rem;}
+.talents-search-int{position: absolute;top: 0;left: 0;width: 98%;height: 0.8rem;outline: none;text-align: center;border: none;color: #333;font-size: 0.12rem;}
+.talents-search-int::placeholder{font-size: 0.28rem;color: #888888;}
+.talents-search-int::-webkit-input-placeholder {font-size: 0.28rem;color: #888888;}
+.talents-search-int:-moz-placeholder {font-size: 0.28rem;color: #888888;}
+.talents-search-int::-moz-placeholder {font-size: 0.28rem;color: #888888;}
+.talents-search-int:-ms-input-placeholder{font-size: 0.28rem;color: #888888;}
+.iconfont::placeholder{font-family:"iconfont" !important;font-size: 0.24rem;}
+.iconfont::-webkit-input-placeholder{font-family:"iconfont" !important;font-size: 0.24rem;}
+.iconfont:-moz-placeholder{font-family:"iconfont" !important;font-size:0.24rem;}
+.iconfont::-moz-placeholder{font-family:"iconfont" !important;font-size: 0.24rem;}
+.iconfont:-ms-input-placeholder{font-family:"iconfont" !important;font-size: 0.24rem;}
+
+/*招聘列表*/
+.post-container{padding-bottom: 0.21rem;}
+.post-container-list{background-color: white;width: 100%;padding-top: 0.22rem;padding-bottom: 0.19rem;border-radius: 0.1rem;margin-top: 0.21rem;}
+.post-list-01-fl{font-size: 0.32rem;color: #454545;font-weight: bold;}
+.post-list-01-fr{font-size: 0.24rem;color: #454545;}
+.post-list-02{font-size: 0.24rem;color: #666666;line-height: 100%;margin-top: 0.34rem;}
+.sp-span-01{font-size: 0.32rem;color: #ec8d2a;font-weight: bold;}
+.sp-span-02:nth-child(2){display: inline-block;margin-left: 10%;}
+
+
+/*人才招聘内容页面---------------------------*/
+/*头部*/
+.talents-detail-top{width: 100%;background-color: white;padding-top: 0.47rem;padding-bottom: 0.4rem;}
+.talents-detail-top-t1-fl{font-size: 0.36rem;color:#252525;font-weight: bold; }
+.talents-detail-top-t1-fr{font-size: 0.24rem;color: #252525;}
+.sp-span-03{font-size: 0.36rem;color: #c98741;font-weight: bold;}
+.talents-detail-top-t2{margin-top: 0.34rem;}
+.talents-detail-top-t2-fl{font-size: 0.22rem;color: #252525;}
+.talents-detail-top-t2-fr{font-size: 0.22rem;color: #787878;}
+.tdttf-stay{border: 0.01rem solid #d0d0d0;padding: 0.04rem 0.07rem;border-radius: 0.05rem;margin-left: 0.05rem;}
+.tdttf-stay:nth-child(1){margin-left: 0;}
+/*招聘内容*/
+.talents-detail-mid-container{width: 100%;background-color: white;margin-top: 0.1rem;padding-top: 0.48rem;}
+.talents-detail-mid01{width: 92.9%;margin: auto;}
+.talents-detail-mid-title{color: #252525;font-size: 0.32rem;line-height: 100%;border-left: 0.05rem solid #c98741; padding-left: 0.09rem;}
+.talents-detail-mid-t2{font-size: 0.26rem;color: #333333;line-height: 0.44rem;margin-top: 0.29rem;}
+.td-mid-title{color: #333333;font-size: 0.26rem;font-weight: bold;line-height: 100%;margin-top: 0.27rem;}
+.td-mid-t1{font-size: 0.26rem;line-height: 0.44rem;color: #333333;margin-top: 0.1rem;padding-bottom: 0.4rem;}
+.talents-detail-mid-t3{font-size: 0.26rem;line-height: 0.44rem;color: #333333;}
+.talents-detail-mid-t4{margin-top: 0.15rem;}
+.sp-span-04{color: #c98741;}
+.talents-detail-mid-title02{margin-top: 0.47rem;}
+.talents-detail-mid-title03{margin-top: 0.27rem;}
+.talents-detail-mid-container02{margin-top: 0.2rem;}
+/*我要应聘*/
+.talents-stor-send{background-color: white;width: 100%;padding-bottom: 0.62rem;}
+.ts-send-zz{background-color: #946c43;margin-top: 0;width: 92%;}
+
+
+/*加载更多12.07*/
+.more{height: 0.6rem;display: flex;align-items: center;justify-content: center;color: #333;font-size: 0.3rem;line-height: 0.6rem;display: none;}
+.more-add{display: flex;}
+.pull_icon{width: 0.4rem;height:0.4rem;background-image: url('../images/pull.png');background-repeat: no-repeat;background-position: center;background-size: 25px;transition: all .5s;}
+.more span{padding-left: .5rem;}
+.more .flip{transform: rotate(180deg);}
+.loading{background-image: url('../images/loading.png');background-repeat: no-repeat;background-position: center;background-size: 0.4rem;}
+.more .loading{-webkit-transform: rotate(0deg) translateZ(0);-webkit-transition-duration: 0;-webkit-animation-name: loading;-webkit-animation-duration: 2s;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;}
+
+@-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg) translateZ(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateZ(0);
+    }
+}
+.post-container{padding-bottom: 0;}

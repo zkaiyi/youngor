@@ -1,0 +1,53 @@
+/*banner*/
+.talents-stor-banner{width: 100%;}
+.talents-stor-banner-img{width: 100%;vertical-align: middle;}
+/*介绍*/
+.talents-stor-about{font-size: 0.28rem;color: #222327;line-height: 0.5rem;text-indent: 0.5rem;margin-top: 0.34rem;}
+/*联系电话*/
+.talents-stor-phone{margin-top: 0.59rem;}
+.talents-stor-phone-title{font-size: 0.3rem;color: #222327;line-height: 100%;border-left: 0.03rem solid #012045;padding-left: 0.13rem;}
+.talents-stor-p{width:98%;background-color:#ebedec; border-radius: 0.1rem;font-size: 0.36rem;color: #012045;line-height: 1.05rem; margin-top: 0.36rem;}
+.talents-stor-p-fl-img{vertical-align: middle;width: 0.2rem;margin-right: 0.2rem;}
+.talents-stor-p-fl{margin-left: 2.9%;}
+.talents-stor-p-fr{margin-right: 2.9%;}
+/*投递简历*/
+.talents-stor-send{padding-bottom: 0.45rem;}
+.ts-send{width:92.4%;font-size: 0.3rem;color: #222327;line-height: 0.53rem;margin-top: 0.39rem; }
+.ts-send-d{font-size: 0.3rem;color: #012045;font-weight: bold;line-height: 100%;}
+.ts-send-d-img{width: 0.4rem;vertical-align: middle;margin-right: 0.1rem;}
+.ts-send-download{margin-top: 0.4rem;}
+.ts-send-download a{text-decoration: none;}
+.ts-send-zz{width: 99%;margin: auto;background-color: #103c70;font-size: 0.3rem;line-height:1rem;border-radius: 0.15rem;color: white;text-align: center;margin-top: 1.3rem; }
+/*弹出遮罩*/
+.content-container-add02{z-index: 600;position: fixed;}
+.container-talents-zz{width: 100%;height: 100%;position: fixed;background-color: rgba(0,0,0,0.5);z-index: 666;top: 0;left: 0;}
+.container-talents-tck{width: 100%;background-color: white;z-index: 667;position: fixed;bottom: 0;overflow-y: auto;padding-bottom: 0.3rem;
+    transition:all 0.7s ease-in 0.02s ;
+    -webkit-transition:all 0.7s ease-in 0.02s ;
+    -moz-transition: all 0.7s ease-in 0.02s ;
+    -o-transition:all 0.7s ease-in 0.02s ;
+    /*height: 78%;*/
+    height: 0;
+    margin-bottom: -5%;
+}
+.container-talents-tck-add{height: 78%;margin-bottom: 0;}
+.container-talents-tck-top{width: 100%;background-color: #946c43;color: white;text-align: center;font-size: 0.36rem;height: 0.88rem;line-height: 0.88rem;}
+.table-file-d{background-color: #cba073;color: white;font-size: 0.3rem;border-radius: 0.15rem;text-align: center;}
+.container-talents-tck-table{width: 92.4%;margin: auto;}
+.talents-tck-table-list{background-color:#efefef;border-radius: 0.15rem;width: 100%;height: 0.9rem;position: relative;margin-top: 0.29rem; }
+.t-t-t-linput{display: block;width: 98%;margin: auto;line-height: 0.9rem;background-color: transparent;border: none;outline: none;padding-left: 0.35rem;font-size: 0.3rem;color: #333;}
+.t-t-t-linput::placeholder{color: #afafaf;}
+.t-t-t-linput:-moz-placeholder{color: #afafaf;}
+.t-t-t-linput:-ms-input-placeholder{color: #afafaf;}
+.t-t-t-linput::-webkit-input-placeholder{color: #afafaf;}
+.table-file{width: 40%;height: 0.9rem;line-height: 0.9rem;text-align: center;margin-top:0.29rem;position: relative;}
+.table-file-d{position: relative;z-index: 2;}
+.table-file-d-img{width: 0.4rem;vertical-align: middle;margin-right: 0.19rem; }
+.table-file-int{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 3;opacity: 0;}
+.talents-tck-submit{background-color: #103c70;color: white;font-size: 0.36rem;height: 0.9rem;line-height: 0.9rem;border-radius: 0.15rem;width: 92.4%;margin: auto;text-align: center;  margin-top: 1.3rem;}
+
+
+
+
+/*遮罩*/
+.talents-add{width: 100%;height: 100%;}

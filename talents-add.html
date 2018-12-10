@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>雅戈尔集团-人才储备</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/talents-stor.css" />
+    <script src="js/font.js"></script>
+    <style>
+
+        html , body{width: 100%;height: 100%;}
+    </style>
+</head>
+<body>
+<div class="container talents-add">
+
+    <!--弹出框-->
+    <div class="container-talents-zz hide"></div>
+    <div class="container-talents-tck ">
+        <div class="container-talents-tck-top">填写应聘信息</div>
+        <div class="container-talents-tck-table">
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的名字"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的年龄"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的性别"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的毕业院校"></div>
+            <div class="talents-tck-table-list"><input class="t-t-t-linput" placeholder="请填写您的学历"></div>
+            <div class="table-file">
+                <div class="table-file-d"><img class="table-file-d-img" src="images/tal-file.png" />上传简历</div>
+                <input class="table-file-int" type="file" id="uppic" onchange="upimg(this)">
+            </div>
+        </div>
+        <div class="talents-tck-submit">提交</div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/talents.js"></script>
+<script>
+    $(function(){
+        lrFixFooter(".footer-contaiern");
+    })
+    $(document).on("click",".talents-add",function () {
+        $(".content-container").addClass("content-container-add02");
+        $(".container-talents-zz").removeClass("hide");
+        $(".container-talents-tck").addClass("container-talents-tck-add");
+    })
+    $(document).on("click",".container-talents-zz",function () {
+        if($(this).hasClass(".hide")){
+
+        }else {
+            $(".content-container").removeClass("content-container-add02");
+            $(".container-talents-tck").removeClass("container-talents-tck-add");
+            $(this).addClass("hide");
+        }
+    });
+</script>
+</body>
+</html>

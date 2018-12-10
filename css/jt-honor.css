@@ -1,0 +1,18 @@
+/*banner*/
+.honor-banner{width: 100%;}
+.honor-banner-img{width: 100%;}
+/*选择*/
+.honor-history{height: 0.9rem;line-height: 0.9rem;position: relative;}
+.honor-history-fr{font-size: 0.28rem;color: #333;line-height: 0.9rem;}
+.honor-history-img{vertical-align: middle;width: 0.15rem;margin-left: 0.15rem;}
+.honor-history-ab{position: absolute;top:0.9rem;background-color: #ebedec;max-height: 2.82rem;overflow: auto;border: 1px solid #d2d2d2;width: 1.8rem;right: 0; }
+.honor-history-ab-select{color: #454545;font-size: 0.26rem;text-align: center;border-bottom: 0.01rem solid #b5b5b5;line-height: 0.64rem;}
+.honor-history-ab-select:nth-last-child(1){border-bottom: none;}
+.hh-selected{background-color: white;}
+/*内容*/
+.honor-container{width: 100%;background-color:#ebedec;padding-top: 0.28rem;padding-bottom: 0.28rem;}
+.honor-item{width: 93.3%;margin: auto;background-color: white;border-radius: 0.05rem;overflow: hidden;padding-top: 0.16rem;padding-bottom: 0.2rem;margin-top: 0.2rem;}
+.honor-item a{text-decoration: none;}
+.honor-item-t1{font-size: 0.3rem;color: #454545;line-height: 0.44rem;width: 91%;margin: auto;}
+.honor-item-t2{font-size: 0.24rem;color: #666666;width: 91%;margin: auto;line-height: 100%;margin-top: 0.21rem;}
+.honor-item:nth-child(1){margin-top: 0;}
