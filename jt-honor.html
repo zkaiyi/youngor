@@ -98,9 +98,11 @@
         if($(".honor-history-ab").hasClass("hide")){
             $(".honor-history-ab").slideDown();
             $(".honor-history-ab").removeClass("hide");
+            $("body").css("overflow","hidden")
         }else {
             $(".honor-history-ab").slideUp();
             $(".honor-history-ab").addClass("hide");
+            $("body").css("overflow","auto")
         }
     })
     $(document).on("click",".honor-history-ab-select",function () {
