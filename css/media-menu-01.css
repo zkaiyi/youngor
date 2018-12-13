@@ -1,0 +1,11 @@
+@media screen and (min-width:370px) and (max-width:380px){
+/*服装*/
+    .swiper-slide02 .swiper-slide02-img {
+        width: 90%;
+        height: 82%;
+    }
+
+    .swiper-slide-next .swiper-slide02-img{height: 68%;}
+    .swiper-slide-prev .swiper-slide02-img{height: 68%;}
+
+}

@@ -12,7 +12,8 @@
 .swiper-slide-prev .swiper-slide02-img{height: 75%;}
 .swiper-pagination02 .swiper-pagination-bullet {width: 0.15rem;height: 0.15rem;background: white;-webkit-box-shadow: #8c9aab 0px 0px 10px;-moz-box-shadow: #8c9aab 0px 0px 10px;box-shadow: #8c9aab 0px 0px 10px;}
 .swiper-pagination02 .swiper-pagination-bullet-active {opacity: 1;background: #8c9aab;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;}
-
+/*12.13修改*/
+.main-container{background-color: white;}
 
 /*菜单三：投资*/
 .title-content-ab01{width: 17%;}
