@@ -1,0 +1,51 @@
+body{background-color: #ebedec;}
+/*轮播*/
+.calsoul-container{width: 100%;}
+.swiper-container {width: 100%;height: 100%;}
+.swiper-slide {
+    text-align: center;font-size: 18px;background: #fff;
+    /* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;
+}
+.swiper-slide01-img{width: 100%;}
+.swiper-pagination01 .swiper-pagination-bullet{background-color: white;opacity: .4;}
+.swiper-pagination01 .swiper-pagination-bullet-active{background-color: white;opacity: 1;}
+.swiper-container01>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: -0.05rem;}
+
+/*五大菜单*/
+.five-menu-container{margin-top: 0.14rem;}
+.five-menu{width: 19.2%;}
+.five-menu:nth-child(n+2){margin-left: 1%;}
+.five-menu a{width: 100%;height: 100%;text-decoration: none;}
+.five-menu-top-img{width: 100%;}
+.five-menu-bot{font-size: 0.28rem;color: #333333;text-align: center;line-height: 100%;margin-top: 0.14rem;}
+/*人才招聘*/
+.talents-container{height: 1.6rem;background-image: url("../images/index-talents-b.png");border-radius: 10px;overflow: hidden;background-repeat: no-repeat;background-size: 100% 100%;text-align: center;font-size: 0.3rem;line-height: 1.6rem;
+    margin-top: 0.56rem;}
+.talents-container-img{width: 8%;vertical-align: middle;margin-right: 0.25rem;}
+.talents-container a{color: white;}
+/*新闻中心*/
+.news-container{font-size: 0.3rem;margin-top: 0.21rem;padding-bottom: 0.62rem;}
+.news-container-fl{width: 38%;border-radius: 10px;background-repeat: no-repeat;overflow: hidden;position: relative;}
+.news-container-fr{width: 59%;}
+.news-container-fl-01-img{width: 100%;}
+.news-container-fl-02{position: absolute;text-align: center;top: 47%;color: white;width: 100%;}
+.news-container-fl-02-img{vertical-align: middle;width:20%;margin-right: 0.11rem;}
+.news-container-fr{position: relative;}
+.news-container-fr-top-01 , .news-container-fr-top-01-img{width: 100%;}
+.news-container-fr-top{width: 100%;border-radius: 10px;overflow: hidden;position: relative;}
+.news-container-fr-top-02{position: absolute;left: 9%;top:38%;color: white;}
+.news-container-fr-top-02-img{width: 20%;margin-right: 0.11rem;}
+.news-container-fr-bot-fl{width: 48.5%;border-radius: 10px;overflow: hidden;}
+.news-container-fr-bot-fl-01 , .news-container-fr-bot-fl-01-img{width: 100%;}
+.news-container-fr-bot-fl{position: relative;}
+.news-container-fr-bot-fl-02{width: 100%;top: 0;position: absolute;text-align: center;}
+.news-container-fr-bot-fl-02-01-img{width: 25%;}
+.news-container-fr-bot-fl-02-02{color: white;}
+.news-container-fr-bot-fl-02-01{margin-top: 15%;}
+.news-container-fr-bot-fl-02-02{margin-top: 5%;}
+.news-container-fr-bot{margin-top: 5%;}
+
+/*12.10*/
+.five-menu-bot-add{color: #d47f36;}
+
+

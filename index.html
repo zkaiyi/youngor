@@ -19,11 +19,14 @@
 <script type="text/javascript">
 
 </script>
-<!--<div id="loader-wrapper">-->
+<div id="loader-wrapper">
     <!--<div id="loader"></div>-->
     <!--<div class="loader-section section-left"></div>-->
     <!--<div class="loader-section section-right"></div>-->
-<!--</div>-->
+    <div class="loader-wrapper-loading"><img class="loader-wrapper-loading-img" src="images/loading07.gif" /></div>
+</div>
+
+
 <div class="container">
     <!--内容-->
     <div class="content-container ">
@@ -135,10 +138,13 @@
 
 
 <script src="js/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $("#loader-wrapper").remove();
+    },900)
+</script>
 <!--swiper-->
 <script src="js/swiper.min.js"></script>
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
 <script src="js/common.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container01', {
@@ -192,9 +198,9 @@
         }
     });
 
-
 </script>
-
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
